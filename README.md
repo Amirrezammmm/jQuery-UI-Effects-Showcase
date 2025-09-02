@@ -16,7 +16,7 @@ Click the button to **hide** it:
 
 ### 3️⃣ Box Shadow Effect
 Image gets a **box-shadow** on page load:
-![Box Shadow Demo](boxShadow/boxshadow-demo.gif)
+![Box Shadow Demo](boxShadow/box-Shadow.png)
 
 
 ## 🛠️ Features
