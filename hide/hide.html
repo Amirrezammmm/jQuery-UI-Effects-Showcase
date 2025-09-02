@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>دکمه ناپدید شونده</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 200px;
+            height: 100px;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            height: 100vh;           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="hideButton">hide me!</button>
+    </div>
+    
+
+    <script>
+        $('#hideButton').on('click', function() {
+            $(this).hide();
+        });
+    </script>
+
+</body>
+</html>
